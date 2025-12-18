@@ -1,12 +1,12 @@
-import { useState } from "react";
 
 const A = () => {
-  const [count, setcount] = useState(0);
+  const a="đạt",b="27",c="...vv"
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={() => setcount(count + 1)}>tăng</button>
-      <button onClick={() => setcount(count - 1)}>giảm</button>
+      <p>tên:{a}</p>
+      <p>tuổi:{b}</p>
+      <p>nghề nghiệp:{c}</p>
+      <p>sở thích:{c}</p>
     </div>
   );
 };
